@@ -11,4 +11,4 @@ script:
 - export ARCH=arm64
 - export CROSS_COMPILE="$HOME/android_prebuilt_toolchains/bin/aarch64-linux-androidkernel-"
 - make gemini_defconfig
-- make -j8
+- make -j4
